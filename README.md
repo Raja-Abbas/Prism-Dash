@@ -2,7 +2,7 @@
 
 > Premium enterprise dashboard with KPIs, charts, data tables, and role-based access control.
 
-**Live Demo:** [prism-dash.netlify.app](https://prism-dash.netlify.app)  
+**Live Demo:** [prism-dash-next.netlify.app](https://prism-dash-next.netlify.app)  
 **Demo Credentials:** `admin@prismdash.com` / `password123`
 
 ---
