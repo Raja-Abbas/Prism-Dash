@@ -54,7 +54,7 @@ Prism Dash is a full-featured enterprise analytics dashboard providing real-time
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/prism-dash.git
+git clone https://github.com/raja-abbas-affandi/prism-dash.git
 cd prism-dash
 
 # Install dependencies
