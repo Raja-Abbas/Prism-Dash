@@ -1,9 +1,12 @@
 # Prism Dash — Enterprise Analytics & Operations Dashboard
 
+> **Status:** MVP 1 — Feature-complete prototype. All core features implemented and working. Login removed for public testing — all pages freely accessible.
+
 > Premium enterprise dashboard with KPIs, charts, data tables, and role-based access control.
 
-**Live Demo:** [prism-dash-next.netlify.app](https://prism-dash-next.netlify.app)  
-**Demo Credentials:** `admin@prismdash.com` / `password123`
+**Live Demo:** [prism-dash-next.netlify.app](https://prism-dash-next.netlify.app)
+
+> **Note:** Authentication has been removed for this MVP to allow free access to all features. No login or signup required.
 
 ---
 
@@ -82,14 +85,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | `DATABASE_URL` | Yes | SQLite file path (default: `file:prisma/dev.db`) |
 | `AUTH_SECRET` | Yes | Random string for NextAuth JWT signing |
 | `NEXTAUTH_URL` | Yes | App URL (e.g., `http://localhost:3000`) |
-
-### Demo Accounts
-
-| Email | Role | Password |
-|-------|------|----------|
-| admin@prismdash.com | ADMIN | password123 |
-| manager@prismdash.com | MANAGER | password123 |
-| viewer@prismdash.com | VIEWER | password123 |
 
 ## Project Structure
 
