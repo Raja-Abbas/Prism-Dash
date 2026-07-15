@@ -69,16 +69,10 @@ export default function LandingPage() {
           <Logo size="sm" />
           <div className="flex items-center gap-3">
             <Link
-              href="/login"
-              className="inline-flex h-9 items-center justify-center rounded-xl px-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
-            >
-              Sign in
-            </Link>
-            <Link
-              href="/register"
+              href="/overview"
               className="inline-flex h-9 items-center justify-center rounded-xl bg-blue-600 px-3 text-sm font-medium text-white shadow-sm transition-colors hover:bg-blue-600/90"
             >
-              Get Started
+              Launch Dashboard
             </Link>
           </div>
         </div>
@@ -100,17 +94,11 @@ export default function LandingPage() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-4">
               <Link
-                href="/register"
+                href="/overview"
                 className="inline-flex h-11 items-center justify-center rounded-xl bg-blue-600 px-8 text-sm font-medium text-white shadow-sm transition-colors hover:bg-blue-600/90"
               >
-                Get Started Free
+                Launch Dashboard Free
                 <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-              <Link
-                href="/login"
-                className="inline-flex h-11 items-center justify-center rounded-xl border border-input bg-background px-8 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-              >
-                Sign in
               </Link>
             </div>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
@@ -189,10 +177,10 @@ export default function LandingPage() {
           </p>
           <div className="mt-8">
             <Link
-              href="/register"
+              href="/overview"
               className="inline-flex h-11 items-center justify-center rounded-xl bg-blue-600 px-8 text-sm font-medium text-white shadow-sm transition-colors hover:bg-blue-600/90"
             >
-              Get Started Free
+              Launch Dashboard Free
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>
